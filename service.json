@@ -1,0 +1,15 @@
+[
+    {
+      "name": "producer",
+      "image": "larswillrich/printtillthousand:first",
+      "cpu": 1,
+      "memory": 1024,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
